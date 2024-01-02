@@ -23,6 +23,40 @@ header h1 {
     margin: 0;
 }
 
+header p {
+    color: #ff0000;
+}
+
+nav {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #ff3333;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+a.active {
+    color:#ff8c00;
+}
+
+a:hover {
+    color: #ff8c00;
+}
+
 section {
     padding: 40px 0;
     background: #fff;
