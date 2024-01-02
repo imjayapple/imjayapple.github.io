@@ -25,6 +25,17 @@ header h1 {
 
 section {
     padding: 40px 0;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #ffffff
+}
+
+section p {
+    color: #555;
 }
 
 footer {
@@ -32,7 +43,7 @@ footer {
     color: #ff3333;
     text-align: center;
     padding: 10px 0;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
