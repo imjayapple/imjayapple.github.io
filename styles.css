@@ -7,6 +7,19 @@ body {
     text-align: center;
 }
 
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar-left {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #fefefe;
+}
+
 .wrapper {
     text-align: left;
     width: 1000px;
