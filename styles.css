@@ -14,7 +14,7 @@ body {
 }
 
 #landing {
-    border: 3px solid red;
+    /* border: 3px solid red; */
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -27,7 +27,7 @@ body {
 }
 
 #intro-card {
-    border: 3px solid green;
+    /* border: 3px solid green; */
     height: 300px;
     width: 600px;
     text-align: left;
@@ -39,6 +39,23 @@ body {
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: light;
+}
+
+.connect-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: transparent;
+    border: 2px solid var(--neon-red);
+    color: rgb(245, 245, 245);
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.connect-btn:hover {
+    background-color: var(--neon-red);
+    color: white;
 }
 
 #projects {
@@ -212,20 +229,4 @@ textarea {
 h1 {
     font-size: 3rem;
     margin-bottom: 0.5rem;
-}
-
-#connect-btn {
-    margin-top: 2rem;
-    padding: 0.75rem 1.5rem;
-    font-size: 1rem;
-    background-color: transparent;
-    border: 2px solid white;
-    color: white;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-#connect-btn:hover {
-    background-color: white;
-    color: var(--dark-bg);
 }
